@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Shop]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Name] NVARCHAR(50) NOT NULL, 
+    [OwnerName] NVARCHAR(50) NULL, 
+    [City] NVARCHAR(50) NOT NULL, 
+)
